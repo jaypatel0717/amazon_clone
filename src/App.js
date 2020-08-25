@@ -17,6 +17,8 @@ function App() {
             </Route>
             <Route path="/">
                 <Header/>
+                <br/>
+                <h3 align="center">Home Page</h3>
             </Route>
         </Switch>
       </div>
