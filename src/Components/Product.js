@@ -3,9 +3,21 @@ import '../Css/Product.css';
 import { useStateValue } from './StateProvider';
 
 function Product({ id, title, image, price, rating }) {
-    const [{basket}, dispatch] = useStateValue();
+
+    const [{}, dispatch] = useStateValue();
+
     const addToBasket = () =>{
-        
+        //add item to cart
+        dispatch({
+            type: 'ADD_TO_BASKET',
+            item:{
+                id: id, 
+                title: title,
+                price: price,
+                image: image,
+                rating: rating,
+            },
+        });
     };
 
     return (

@@ -1,13 +1,19 @@
 export const initialState = {
     basket: [], 
+    user: null,
 };
 
-function reducer(state, action){
+const reducer = (state, action) => {
     switch(action.type){
-        case 'ADD_TO_BASKET':
-            break;
-        case 'REMOVE_FORM_BASKET':
-            break;
+        case "ADD_TO_BASKET":
+            return { 
+                ...state,
+                basket: [...state.basket, action.type],
+            };
+           
+        case "REMOVE_FORM_BASKET":
+            return { state };
+           
         default:
             return state;
     }
