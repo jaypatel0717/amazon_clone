@@ -7,13 +7,12 @@ function Product({ id, title, image, price, rating }) {
             <div className="product_info">
                 <p>{title}</p>
                 <p className="product_price">
-                    <small>$</small>
-                    <strong>{price}</strong>
+                    <strong>${price}</strong>
                 </p>
                 <div className="product_rating">
                     {
                         Array(rating).fill().map((_) => (
-                            <p><img height="21" width="21" src="https://img.icons8.com/emoji/48/000000/star-emoji.png"/></p>
+                            <p><img height="18" width="18" src="https://img.icons8.com/emoji/48/000000/star-emoji.png"/></p>
                         ))
                     }
                 </div>
