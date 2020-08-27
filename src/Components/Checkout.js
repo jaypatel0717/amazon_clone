@@ -17,7 +17,7 @@ function Checkout() {
                     alt=""
                 />
                 { basket?.length === 0  ? (
-                    <div>
+                    <div className="checkout_emptyCart">
                         <h2>Your Amazon Cart is empty</h2>
                         <p>
                             You have no items in your cart. To buy one or "Add to Cart" next to the item.

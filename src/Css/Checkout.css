@@ -19,3 +19,9 @@
 .checkout_right{
     padding-left: 10px;
 }
+
+.checkout_emptyCart{
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 25px;
+}
