@@ -1,10 +1,8 @@
 .checkout{
-   
-}
-
-.checkout_ad{
-    width: 100%;
-    margin-bottom: 10px;
+   display: flex;
+   padding: 10px;
+   background-color: white;
+   height: max-content;
 }
 
 .checkout_title{
@@ -13,3 +11,11 @@
     border-bottom: 1px solid lightgray;
 }
 
+.checkout_ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout_right{
+    padding-left: 10px;
+}
