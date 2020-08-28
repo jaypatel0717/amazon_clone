@@ -1,2 +1,2 @@
-### Amazon React App
+### Amazon Clone React App
 
