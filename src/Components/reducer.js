@@ -1,3 +1,5 @@
+import { act } from "react-dom/test-utils";
+
 export const initialState = {
     basket: [], 
     user: null,
@@ -8,6 +10,12 @@ basket?.reduce((amount, item) => item.price + amount, 0);
 
 const reducer = (state, action) => {
     switch(action.type){
+        case "SET_USER":
+            return {
+                ...state,
+                user: action.user
+            }
+            
         case "ADD_TO_BASKET":
             return { 
                 ...state,
