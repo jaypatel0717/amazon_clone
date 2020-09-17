@@ -1,4 +1,4 @@
-### Amazon Clone React App
+### Amazon Clone React Application
 
 
 #### Used Technologies : 
