@@ -6,7 +6,7 @@
 2. Firebase firestone realtime database
 3. Material UI
 4. React Context API
-5. Email and Password Authentication
+5. Email and Password google Authentication
 6. Deploy app using Firebase
 
 #### Components :
