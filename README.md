@@ -20,7 +20,6 @@
 * StateProvider
 * reducer
 
-
 #### CSS :
 1. App.css
 2. Home.css
