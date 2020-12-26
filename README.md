@@ -2,7 +2,7 @@
 
 <br/>
 
-![Alt text](https://github.com/jaypatel0717/todolist_react_app/blob/main/public/home.png)
+![Alt text](https://github.com/jaypatel0717/amazon_clone/blob/master/public/homescreen.png)
 
 -> This is Amazon Clone app using react, firebase and google authentication.<br/>
 -> You can signup and singin using your email and you can add and remove products to the card.<br/>
