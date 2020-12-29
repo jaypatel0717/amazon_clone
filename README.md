@@ -1,4 +1,4 @@
-### Amazon Clone React Application
+## Amazon Clone React Application
 
 <br/>
 
@@ -17,7 +17,7 @@
 5. Email and Password google Authentication
 6. Deploy app using Firebase
 
-#### To start this application
+#### To start this application :
 
 ```
 Go to -> cd amazon_clone
@@ -54,7 +54,7 @@ npm install -g firebase-tools
 7. CheckoutProduct.css
 8. Subtotal.css
 
-#### Create new React application:
+#### Create new React application :
 
 ```
 npx create-react-app my-app
